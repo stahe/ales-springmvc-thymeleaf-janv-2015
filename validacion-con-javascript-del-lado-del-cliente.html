@@ -990,7 +990,7 @@
 </ul>
 
 <p><span id="refheading1401811644545772" name="refheading1401811644545772" class="odt-bookmark-anchor"></span></p>
-<h2 id="62-validacion-del-lado-del-servidor">6.2. <span style="color: #4f81bd"><strong><span style="color: #000000">Validación del lado del servidor</span></strong></span></h2>
+<h2 id="62-validacion-del-lado-del-servidor">6.2. <span style="color: #000000">Validación del lado del servidor</span></h2>
 <p><span id="refheading1401831644545772" name="refheading1401831644545772" class="odt-bookmark-anchor"></span></p>
 <h3 id="621-configuracion">6.2.1. <span style="color: #000000">Configuración</span></h3>
 <p><span style="color: #000000">Comenzamos creando un nuevo proyecto Maven [springmvc-validation-client]:</span></p>
@@ -1622,7 +1622,7 @@
 </ul>
 
 <p><span id="refheading1401891644545772" name="refheading1401891644545772" class="odt-bookmark-anchor"></span></p>
-<h3 id="624-la-vista">6.2.4. <span style="color: #4f81bd"><strong><span style="color: #000000">La vista</span></strong></span></h3>
+<h3 id="624-la-vista">6.2.4. <span style="color: #000000">La vista</span></h3>
 <p><span style="color: #000000">La vista [vue-01.xml] es compleja. Solo presentaremos una pequeña parte de ella:</span></p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-html">
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;!</span><span style="color:#3f7f7f">DOCTYPE</span><span style="color:#000000"> </span><span style="color:#008080">HTML&gt;</span></span></span>
@@ -3494,7 +3494,7 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">&lt;</span><span style="color:#3f7f7f">input</span> <span style="color:#7f007f">type</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;text&quot;</span> <span style="color:#7f007f">data-val</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;true&quot;</span> <span style="color:#7f007f">data-val-range-max</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;14&quot;</span> <span style="color:#7f007f">data-val-range</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;La valeur doit être dans l&amp;#39;&amp;#39;intervalle [10,14]&quot; </span><span style="color:#7f007f">data-val-int</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;Format invalide&quot;</span> <span style="color:#7f007f">data-val-required</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;Le champ est obligatoire&quot;</span> <span style="color:#7f007f">data-val-range-min</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;10&quot;</span> <span style="color:#7f007f">value</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;&quot;</span> <span style="color:#7f007f">id</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;int1014&quot; </span><span style="color:#7f007f">name</span><span style="color:#000000">=</span><span style="font-style:italic;color:#2a00ff">&quot;int1014&quot;</span> <span style="color:#008080">/&gt;</span></span></span>
 </code></pre></div>
 
-<p><span style="color: #000000">Esta etiqueta introduce un nuevo validador [range] [data-val-range=&quot;La valeur doit être dans l&amp;#39;&amp;#39;intervalle [10,14]&quot;]</span><span style="color: #000000"> que tiene dos parámetros: [min] [data-val-range-min=&quot;10&quot;] y [max] [data-val-range-max=&quot;14&quot;].</span></p>
+<p><span style="color: #000000">Esta etiqueta introduce un nuevo validador [range] [data-val-range=&quot;La valeur doit être dans l&amp;#39;&amp;#39;intervalle [10,14]&quot;] que tiene dos parámetros: [min] [data-val-range-min=&quot;10&quot;] y [max] [data-val-range-max=&quot;14&quot;].</span></p>
 <p><span style="color: #000000">En el archivo [client-validation.js], definimos el validador [range] de la siguiente manera:</span></p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-javascript">
 <span class="odt-code-line"><span class="odt-code-line-content">// -------------- rango que debe usarse junto con [int] o [number]</span></span>
